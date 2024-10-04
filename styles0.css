@@ -1,0 +1,133 @@
+body{
+    font-family: 'Open sans';
+    margin:0;
+    padding: 0;
+    color: #fff;
+}
+.main{
+    width: 1024px;
+    margin: auto;
+    max-width: 1440px;
+}
+button{
+    background-color: #e6c8c3;
+    color: #484f5b;
+    font-weight: bold;
+    border: none;
+    padding:15px;
+  }
+.topbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 70%;
+    align-self: right;
+    list-style: none;
+    text-decoration: none;
+
+}
+.nav-list a{
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+
+
+}
+.banner{
+    display: block;
+    align-items: center;
+    align-content: flex-end;
+
+
+}
+#banner1{ 
+    background-image: url('background4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+#banner2{ 
+    background-image: url('background5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+#banner3{
+    background-image:url('background6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+#banner5{
+    background-image:url('background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+#banner6{
+    background-image:url('background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+.bannerRight{
+    width: 50%;
+    position:relative;
+    align-content: right;
+    margin-left:auto;
+    right: 0;
+    padding: 65px 50px;
+
+
+}
+.bannerLeft{
+    width: 50%;
+    position:relative;
+    padding: 65px 50px;
+}
+.bannerCenter{
+    display: block;
+    width: 70%;
+    position:relative;
+    align-content: center;
+    margin:auto;
+    padding: 65px 50px;
+
+
+}
+.bannerRight p, .bannerRight h1, .bannerRight button{
+    margin: 35px;
+}
+#icons {
+    display: flex;
+}
+.icon {
+    margin: 20px 30px;
+}
+.image{
+    display: block;
+    scale: 80%;
+}
+footer {
+    background-color: #111;           /* Dark background */
+    color: #fff;                      /* White text */
+    padding: 40px 0;                  /* Padding around the footer */
+    text-align: center;
+    font-size: 16px;
+  }
