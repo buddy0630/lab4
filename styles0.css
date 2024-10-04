@@ -2,7 +2,7 @@ body{
     font-family: 'Open sans';
     margin:0;
     padding: 0;
-    color: #fff;
+    color: #000000;
 }
 .main{
     width: 1024px;
@@ -36,19 +36,20 @@ button{
     padding: 15px 25px;
     text-decoration: none;
 }
-.banner{
+.home-picture {
+    width: 100%;
+    max-width: 300px; 
+    aspect-ratio: 3 / 4; 
+    object-fit: cover;
+    margin: 100px;
+    border-radius: 30px;
+}
+
+.banner {
     display: flex;
     align-items: center;
-    align-content: flex-end;
-
-
-}
-.banner{
-    display: block;
-    align-items: center;
-    align-content: flex-end;
-
-
+    justify-content: space-between;
+    min-height: 700px;
 }
 #banner1{ 
     background-image: url('background4.jpg');
@@ -97,7 +98,7 @@ button{
 
 }
 .bannerLeft{
-    width: 50%;
+    width: 40%;
     position:relative;
     padding: 65px 50px;
 }
